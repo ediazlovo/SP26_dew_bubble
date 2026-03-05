@@ -74,8 +74,8 @@ def get_antoine_coefficient(Name, Temperature):
             index = None
 
     if index == None:
-        print('Sorry, the data for the given temperature {0}K does '
-              'not exist in the Data Base'.format(Temperature))
+        print('The data for the given temperature {0}K does '
+              'not exist in the Data Base. How unfortunate for you.'.format(Temperature))
         return None
 
     else:
