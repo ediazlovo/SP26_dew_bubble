@@ -97,8 +97,8 @@ def _(fsolve, get_antoine_coefficient, np, plt, raoult_law_kvalue):
         K = raoult_law_kvalue(T, P, antoineCoefs)
         y = K * z
         y_prop.append(y[0])
-    plt.plot(y_prop, T_soln, label='Y_prop')
-    plt.plot(x_prop, T_soln, label='X_prop')
+    plt.plot(y_prop, T_soln, label='Y_propane')
+    plt.plot(x_prop, T_soln, label='X_propane')
     plt.xlabel('$x_{prop}$, $y_{prop}$')
     plt.ylabel('Temperature (K)')
     plt.title('T-x-y of propane and toluene')
